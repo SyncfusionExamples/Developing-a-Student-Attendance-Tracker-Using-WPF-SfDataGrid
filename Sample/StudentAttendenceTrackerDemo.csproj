@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\clear-filters.png" />
+    <None Remove="Images\close.png" />
+    <None Remove="Images\filter.png" />
+    <None Remove="Images\icons8-sort-alpha-up-16.png" />
+    <None Remove="Images\sort-alpha-up-reversed.png" />
+    <None Remove="Images\sort-alpha-up.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    <PackageReference Include="Syncfusion.DataGridExcelExport.Wpf" Version="29.1.33" />
+    <PackageReference Include="Syncfusion.SfGrid.WPF" Version="29.1.33" />
+    <PackageReference Include="Syncfusion.SfInput.WPF" Version="29.1.33" />
+    <PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="29.1.33" />
+    <PackageReference Include="Syncfusion.Themes.Windows11Light.WPF" Version="29.1.33" />
+    <PackageReference Include="Syncfusion.Tools.WPF" Version="29.1.33" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\clear-filters.png" />
+    <Resource Include="Images\close.png" />
+    <Resource Include="Images\filter.png" />
+    <Resource Include="Images\sort-alpha-up-reversed.png" />
+    <Resource Include="Images\sort-alpha-up.png" />
+  </ItemGroup>
+
+</Project>
